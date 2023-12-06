@@ -1,16 +1,7 @@
-.background {
-    -fx-background-color: blue;
-    -fx-background-image: url("Icons/bg.jpg");
-    -fx-background-repeat: stretch;
-    -fx-background-size: 500 600;
-    -fx-background-position: center center;
-}
-
 .controlPane {
     -fx-background-color: #042726;
     -fx-effect: dropshadow(three-pass-box, #042726, 15, 0, 0, 2);
 }
-
 
 .pane {
     -fx-background-color: #042726;
@@ -21,6 +12,11 @@
     -fx-background-color: #042E20;
     -fx-background-radius: 20;
     -fx-effect: dropshadow(three-pass-box, #042E20, 15, 0, 0, 2);
+}
+
+#textArea {
+    -fx-text-fill: #042E20;
+    -fx-border-color: #042726;
 }
 
 .button {
